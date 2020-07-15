@@ -1,0 +1,6 @@
+#include<stdio.h>
+#include"facheader.h"
+
+void main () {
+	factorial(5);
+}

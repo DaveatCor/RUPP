@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main() {
+	int id;
+	char name[20];
+	char sex;
+	float salary;
+	
+	printf("\nid: "); scanf("%d", &id);
+	printf("Name: "); 
+		//fflush is prevent next that not skip every input ( Clear buffet ) 
+		fflush(stdin);
+		scanf("%s", &name);
+	printf("Sex: ");
+		//fflush is prevent next that not skip every input ( Clear buffet )
+		fflush(stdin);
+		scanf("%c", &sex);
+
+	printf("Salary:" ); scanf("%f", &salary);
+
+	printf("\nYour CV\n");
+	printf("Your id: %d", &id);
+	printf("Your name: %s", &name);
+	printf("Your sex: %c", &sex);
+	//( .2 ) only 2 number behind display
+	printf("\nYour salary: %f", &salary);
+   getch();
+   clrscr();
+}

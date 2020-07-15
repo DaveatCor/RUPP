@@ -1,0 +1,21 @@
+=> Array is pass value to function as address by default 
+   So no need to return, or Declare parameter as address in fuction
+
+   Example: 
+	void input(int a[]){
+	  Statement;	
+	}
+----------------------------------------------------------------------	
+=> Array 2 or more dimention need to assign size parameter's function.
+
+   Example 1:
+	void input(int a[][size]){
+	  statement;
+	}
+   Example 2:
+	void input(int a[][size][size]){
+	  statement;
+	}
+
+----------------------------------------------------------------------
+

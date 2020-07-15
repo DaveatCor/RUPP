@@ -1,0 +1,43 @@
+29/1/2020
+
+កង់ដង់សាទ័រ:
+
+	រូមមន្តC = Q/V 
+
+ទីប្រាំតំណាងតង់ស្យុង
+
+Example1: 
+	C = 22*10(3) +- 5% pF
+	=> 22.nF +-5% | (nF) = nanoFarat
+
+3n9 = 3.9 nano
+
+Example2: 
+	C = 10*10(3) +- 10% pF | pF = (pico Farat)
+	=> 10nF +- 10% 
+
+Note:​​ ភាគរយនៃកង់ដង់សាទ័រ
+	_Green = 5%
+	_White = 10%
+	_Black = 20%
+
+Example: 103K
+	=> 10 * 10(3) +- 10% pF
+
+Example: 109C
+	=> 10 * 10(-1) +- 0.25pF
+
+Example: .47N
+	=> C = 0.47uF | uF = (Micro Farat)
+
+
+
+
+
+
+
+
+
+
+
+
