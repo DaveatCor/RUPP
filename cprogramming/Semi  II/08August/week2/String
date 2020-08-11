@@ -1,0 +1,4 @@
+Compare, Replace, Copy with String can use only with standard string.
+
+Function "gets" use for input name with " " space.
+scanf doesn't catch " " space.

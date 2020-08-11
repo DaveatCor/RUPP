@@ -1,0 +1,15 @@
+>>>>>>>>>>>>>string<<<<<<<<<<<<
+
+char str[20];
+
+Input:
+
+gets(str);
+---------------------
+Output: 
+
+format control = %s;
+
+printf("Display: %s", str);
+or
+puts(str);
