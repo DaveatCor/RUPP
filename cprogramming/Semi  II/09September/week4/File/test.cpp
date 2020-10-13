@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+
+void main(){
+	FILE *f;
+
+   f = fopen("my_test.txt", "r+");
+
+   if( f == NULL){
+   	printf("Cannot open file");
+   	getch();
+      exit(0);
+   }
+
+   fputs("H", f);
+
+   fclose(f);
+}

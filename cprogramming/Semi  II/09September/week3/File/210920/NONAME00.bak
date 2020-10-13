@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+#include<conio.h>
+#include<string.h>struct Student{
+   int id;
+   char name[20];
+   char sex;
+	float average;   Birthday birthday;
+};struct Birthday{	int date;   int month;   int year;};
+void main(){   Student std1;	getch();
+}

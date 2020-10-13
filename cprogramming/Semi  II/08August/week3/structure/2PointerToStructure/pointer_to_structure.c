@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <conio.h>
 
 int main() {
 
@@ -9,13 +10,13 @@ int main() {
         char sex;
         float average;
     };
-    
+
     struct students *x, p;
-    
+
     // Pointer To Structure
-    
+
     x = &p;
-    
+
     x->id=123;
     strcpy(x->name, "Chan dara");
     x->sex = 'M';
@@ -24,6 +25,5 @@ int main() {
     printf("Name: %s\n", x->name);
     printf("Sex: %d\n",  x->sex);
     printf("Average: %.2f\n", x->average);
-
-    return 0;
+    getch();
 }
